@@ -1,0 +1,13 @@
+name: 'JSON:API Boost'
+description: Improve the performance of the JSON:API module with a cache-warming strategy.
+type: module
+core: 8.x
+dependencies:
+  - drupal:jsonapi
+  - jsonapi_extras:jsonapi_extras (>=8.x-3.0)
+  - warmer:warmer
+
+# Information added by Drupal.org packaging script on 2020-03-25
+version: '8.x-1.0'
+project: 'jsonapi_boost'
+datestamp: 1585172389
